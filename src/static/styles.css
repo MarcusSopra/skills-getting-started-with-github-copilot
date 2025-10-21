@@ -176,6 +176,23 @@ footer {
   color: #222;
 }
 
+/* Remove button next to participant */
+.remove-participant {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.remove-participant:hover {
+  background: rgba(198, 40, 40, 0.08);
+}
+
 .participant-badge {
   width: 34px;
   height: 34px;
